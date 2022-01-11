@@ -1,9 +1,11 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "ErroneousCreationist",
+  "name": "Incursion: Final Dawn",
+  "uniqueName": "ErroneousCreationist.incursionfinaldawn",
   "version": "0.0.0",
   "owmlVersion": "2.1.0",
-  "dependencies": [ "xen.NewHorizons" ]
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
 }
