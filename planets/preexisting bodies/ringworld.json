@@ -1,0 +1,31 @@
+{
+	"name" : "RINGWORLD",
+	"destroy" : false,
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralShip.prefab",
+                "scale" : 3,
+				"position" : {"x" : 0, "y" : 0, "z" : 1000},
+                "rotation" : {"x" : 90, "y" : 0, "z" : 0}
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Shroud.prefab",
+                "scale" : 800
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue.xml",
+                "radius" : 2,
+				"position" : {"x": -4.867737, "y": -3.394329, "z": 2217.329}
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+<DialogueTree>
+    <NameField>Shipboard Computer</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>SHIPBOARD COMPUTER</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>habitable-planet FILES</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>LOG FROM habitable-planet ORBITAL REFINERY</Page>
+            <Page>RECIEVING INSTRUCTIONS FROM habitable-planet SPACESHIP</Page>
+            <Page>PLANETARY ORE CONCENTRATION: HIGH</Page>
+            <Page>COMMENCING ORBITAL MINING...</Page>
+            <Page>RECIEVING FROM habitable-planet SPACESHIP: ["SLAG OVERLOAD! DUMPING TO habitable-planet"]</Page>
+            <Page>STATUS: RETRIEVING ORE AND DUMPING WASTE SLAG</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>exit</Name>
+        <Dialogue>
+            <Page>EXITING...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,61 @@
+{
+	"name" : "CAVE_TWIN",
+	"destroy" : false,
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralShip.prefab",
+                "scale" : 3,
+				"position" : {"x" : 0, "y" : 0, "z" : 250},
+                "rotation" : {"x" : 90, "y" : 0, "z" : 0}
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Drill.prefab",
+                "scale" : 2,
+				"position" : {"x": -65.63059, "y": -55.44139, "z": 124.9566},
+                "alignToSurfaceNormal" : true
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Drill.prefab",
+                "scale" : 2,
+				"position" : {"x": -56.95028, "y": -57.76716, "z": 128.1427},
+                "alignToSurfaceNormal" : true
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Drill.prefab",
+                "scale" : 2,
+				"position" : {"x": -76.02448, "y": -19.69048, "z": 126.2246},
+                "alignToSurfaceNormal" : true
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Drill.prefab",
+                "scale" : 2,
+				"position" : {"x": -119.6091, "y": -39.17979, "z": 79.76854},
+                "alignToSurfaceNormal" : true
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Drill.prefab",
+                "scale" : 2,
+				"position" : {"x": -117.6161, "y": -51.21986, "z": 76.00298},
+                "alignToSurfaceNormal" : true
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue.xml",
+                "radius" : 2,
+				"position" : {"x": -5.218967, "y": -3.402686, "z": 217.191}
+            }
+        ]
+    }
+}

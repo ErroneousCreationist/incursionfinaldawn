@@ -1,0 +1,37 @@
+{
+	"name" : "Solar Refinery",
+	"destroy" : false,
+    "Base" :
+    {
+        "surfaceSize" : 1000,
+        "surfaceGravity" : 15
+    },
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/SolarRefinery.prefab",
+                "scale" : 1,
+				"position" : {"x" : 0, "y" : 0, "z" : 0}
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue/solrefinery.xml",
+                "radius" : 2,
+				"position" : {"x": -26.56989, "y": 235.0194, "z": -12.92732}
+            }
+        ]
+    },
+    "Orbit" :
+    {
+        "primaryBody" : "SUN",
+        "semiMajorAxis" : 4000,
+        "argumentOfPeriapsis" : 270,
+        "isTidallyLocked" : true
+    }
+}

@@ -1,0 +1,53 @@
+<DialogueTree>
+    <NameField>Shipboard Computer</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>SHIPBOARD COMPUTER</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>sol FILES</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>LOG FROM sol MAIN ORBITAL REFINERY</Page>
+            <Page>DOING PRELIMINARY SCAN...</Page>
+            <Page>SOLAR ACTIVITY INDICATES ONCOMING SUPERNOVA</Page>
+            <Page>CALLING [directive2.634]... WILL NOT SEND MESSAGE TO PREVENT PANIC</Page>
+            <Page>COMMENCING RESOURCE EXTRACTION...</Page>
+            <Page>PULLING RESOURCES ACTIVE</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>exit</Name>
+        <Dialogue>
+            <Page>EXITING...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

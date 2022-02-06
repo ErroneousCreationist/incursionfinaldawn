@@ -1,0 +1,21 @@
+{
+	"name" : "SUN",
+	"destroy" : false,
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/DysonSphere.prefab",
+                "scale" : 207500
+            }
+        ]
+    },
+    "Funnel" :
+    {
+        "target" : "Solar Refinery",
+        "type" : "star"
+    }
+}

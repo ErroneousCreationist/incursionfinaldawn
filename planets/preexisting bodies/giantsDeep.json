@@ -1,0 +1,53 @@
+{
+	"name" : "GIANTS_DEEP",
+	"destroy" : false,
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralShip.prefab",
+                "scale" : 3,
+				"position" : {"x" : 0, "y" : 0, "z" : 2250},
+                "rotation" : {"x" : 90, "y" : 0, "z" : 0}
+            },
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/Shroud.prefab",
+                "scale" : 1300
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue.xml",
+                "radius" : 2,
+				"position" : {"x": -4.867737, "y": -3.394329, "z": 2217.329}
+            }
+        ]
+    },
+    "Atmosphere" :
+    {
+        "cloudTint" : {"r" : 0, "g" : 0, "b" : 0, "a" : 0},
+        "cloudSize" : 0,
+        "fogSize" : 600,
+        "fogTint" : {"r" : 3, "g" : 252, "b" : 207, "a" : 255},
+        "fogDensity" : 50
+    },
+    "Water" : 
+    {
+        "size" : 0
+    },
+    "Sand" :
+    {
+        "size" : 600,
+        "tint" : {"r" : 78, "g" : 3, "b" : 252, "a" : 255},
+        "curve" : 
+        [
+            {"time" : 0, "value" : 0.2},
+            {"time" : 9, "value" : 1}
+        ]
+    }
+}

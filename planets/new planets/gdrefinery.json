@@ -1,0 +1,44 @@
+{
+	"name" : "GD Refinery",
+	"destroy" : false,
+    "Base" :
+    {
+        "surfaceSize" : 60,
+        "surfaceGravity" : 8,
+        "hasReferenceFrame" : true
+    },
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralRefinery.prefab",
+                "scale" : 1,
+				"position" : {"x" : 0, "y" : 0, "z" : 0}
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue/gdrefinery.xml",
+                "radius" : 2,
+				"position" : {"x": -0.06286049, "y": 36.79785, "z": 0.1740685}
+            }
+        ]
+    },
+    "Orbit" :
+    {
+        "primaryBody" : "GIANTS_DEEP",
+        "semiMajorAxis" : 3000,
+        "argumentOfPeriapsis" : 270,
+        "isTidallyLocked" : true
+    },
+    "Funnel" :
+    {
+        "target" : "GIANTS_DEEP",
+        "type" : "sand",
+        "tint" : {"r" : 78, "g" : 3, "b" : 252, "a" : 255}
+    }
+}

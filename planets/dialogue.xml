@@ -1,0 +1,191 @@
+<DialogueTree>
+    <NameField>Shipboard Computer</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>SHIPBOARD COMPUTER</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: binary-system</Text>
+                <DialogueTarget>twins</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: habitable-planet</Text>
+                <DialogueTarget>timber</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: gas-giant</Text>
+                <DialogueTarget>giants</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: rocky-planet</Text>
+                <DialogueTarget>brittle</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: cloaked-vessel</Text>
+                <DialogueTarget>ringworld</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>ACCESS FILES ON: unidentified-planet</Text>
+                <DialogueTarget>bramble</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>twins</Name>
+        <Dialogue>
+            <Page>LOG FROM binary-system SPACESHIP</Page>
+            <Page>SCANNING...</Page>
+            <Page>ALIEN TECHNOLOGY DETECTED ON AND IN BOTH PLANETS</Page>
+            <Page>sand-twin UNABLE TO BE MINED</Page>
+            <Page>LAUNCHING DRILLS TO cave-twin</Page>
+            <Page>EXPLORATION COMPLETE. ENTERING REST MODE...</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>timber</Name>
+        <Dialogue>
+            <Page>LOG FROM habitable-planet SPACESHIP</Page>
+            <Page>SCANNING...</Page>
+            <Page>HIGH ORE CONCENTRATION DETECTED. LIFE DETECTED. STATUS: PRIMITIVE</Page>
+            <Page>MOON DETECTED. OBLITERATING FOR RESOURCES...</Page>
+            <Page>WARNING! WASTE SLAG OVERLOAD! DUMPING TO habitable-planet</Page>
+            <Page>EXPLORATION COMPLETE. ENTERING REST MODE...</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>brittle</Name>
+        <Dialogue>
+            <Page>LOG FROM rocky-planet SPACESHIP</Page>
+            <Page>SCANNING...</Page>
+            <Page>GRAVITATIONAL ANOMALY DETECTED IN CORE. SCANNING FURTHER...</Page>
+            <Page>WARNING: CRUST HOLLOW. USABLE SPACE MINIMAL. VOLCANIC MOON DETECTED: NO VALUABLE RESOURCES</Page>
+            <Page>PLANET NON-VALUABLE.</Page>
+            <Page>EXPLORATION COMPLETE. ENTERING REST MODE...</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>giants</Name>
+        <Dialogue>
+            <Page>LOG FROM gas-giant SPACESHIP</Page>
+            <Page>SCANNING...</Page>
+            <Page>WATER SURFACE DETECTED. PLANET ATMOSPHERE AND SURFACE PERFECT FOR TERRAFORMATION</Page>
+            <Page>ENCASE PLANET IN SHELL - CREATE USABLE SURFACE</Page>
+            <Page>WARNING: MULTIPLE BREACHES FOUND IN SHELL. LOW PRIORITY.</Page>
+            <Page>SIGNAL DETECTED FROM SURFACE: ["gabbro here, somethings VERY wrong! oh sapwine OH SAPW-"]</Page>
+            <Page>EXPLORATION COMPLETE. ENTERING REST MODE...</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>ringworld</Name>
+        <Dialogue>
+            <Page>LOG FROM cloaked-vessel SPACESHIP</Page>
+            <Page>WARNING: ALIEN TECHNOLOGY DETECTED IN REGION</Page>
+            <Page>SCANNING...</Page>
+            <Page>IDENTIFIED AS SPACE VESSEL, SOPHISTICATION MODERATE</Page>
+            <Page>NO LIFEFORMS DETECTED ABOARD. INITIATING QUARANTINE SHROUD</Page>
+            <Page>WILL REMAIN IN PLACE TO MONITOR cloaked-vessel</Page>
+            <Page>EXPLORATION COMPLETE. ENTERING REST MODE...</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+
+    <DialogueNode>
+        <Name>bramble</Name>
+        <Dialogue>
+            <Page>LOG FROM unidentified-planet SPACESHIP</Page>
+            <Page>SCANNING...</Page>
+            <Page>WARNING: INTERNAL DIMENSIONS ANOMALY DETECTED. NUMEROUS DUPLICATE SIGNALS DETECTED</Page>
+            <Page>HOSTILE LIFEFORMS DETECTED WITHIN. ADVANCED SPACE VESSEL WITHIN, TECHNOLOGY IDENTIFIED AS [nomai]</Page>
+            <Page>DESCENDING INTO OPENING...</Page>
+            <Page>WARNING: HOSTILE LIFEFORMS AT MASSIVE SIZE, SHIP SUFFERING STRUCTURAL INTEGRITY LOSS</Page>
+            <Page>[connection lost]</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>exit</Name>
+        <Dialogue>
+            <Page>EXITING...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

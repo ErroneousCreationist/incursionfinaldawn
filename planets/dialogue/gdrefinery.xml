@@ -1,0 +1,53 @@
+<DialogueTree>
+    <NameField>Shipboard Computer</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>SHIPBOARD COMPUTER</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>gas-giant FILES</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>LOG FROM gas-giant ORBITAL TERRAFORMER</Page>
+            <Page>RECIEVING INSTRUCTIONS FROM gas-giant SPACESHIP</Page>
+            <Page>BEGIN TERRAFORMATION</Page>
+            <Page>CREATING USABLE SURFACE...</Page>
+            <Page>WARNING: ERRATIC WEATHER DETECTED! WARNING: LANDMASSES DETECTED - DESTROYING LANDMASSES</Page>
+            <Page>STATUS: USING WASTE MATERIAL TO MAKE USABLE SURFACE</Page>
+        </Dialogue>
+        
+        <DialogueOptionsList>
+            <DialogueOption>
+                <Text>BACK</Text>
+                <DialogueTarget>Start</DialogueTarget>
+            </DialogueOption>
+            <DialogueOption>
+                <Text>EXIT</Text>
+                <DialogueTarget>exit</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+    
+    <DialogueNode>
+        <Name>exit</Name>
+        <Dialogue>
+            <Page>EXITING...</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

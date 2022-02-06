@@ -1,0 +1,26 @@
+{
+	"name" : "BRITTLE_HOLLOW",
+	"destroy" : false,
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralShip.prefab",
+                "scale" : 3,
+				"position" : {"x" : 0, "y" : 0, "z" : 350},
+                "rotation" : {"x" : 90, "y" : 0, "z" : 0}
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue.xml",
+                "radius" : 2,
+				"position" : {"x": -5.237547, "y": -3.324117, "z": 317.0683}
+            }
+        ]
+    }
+}

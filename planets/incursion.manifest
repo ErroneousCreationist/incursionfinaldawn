@@ -1,0 +1,75 @@
+ManifestFileVersion: 0
+CRC: 718692651
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b4269bfd645373f42736ff9010905d8c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cdb25762e56394f9380e25b6cb8f7f35
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/IncursionAssets/AlienMetal.mat
+- Assets/IncursionAssets/GeneralShip.prefab
+- Assets/IncursionAssets/Drill.controller
+- Assets/IncursionAssets/GDtext.fbx
+- Assets/IncursionAssets/THTEXT2.fbx
+- Assets/IncursionAssets/SolRefinery.fbx
+- Assets/IncursionAssets/GD SHROUD.fbx
+- Assets/IncursionAssets/DysonSphere.prefab
+- Assets/IncursionAssets/BrightLight.mat
+- Assets/IncursionAssets/AlienTex 1.jpg
+- Assets/IncursionAssets/THship.controller
+- Assets/IncursionAssets/AlienTex.jpg
+- Assets/IncursionAssets/Shroud.prefab
+- Assets/IncursionAssets/ShipComp.fbx
+- Assets/IncursionAssets/BHship.prefab
+- Assets/IncursionAssets/Drill.anim
+- Assets/IncursionAssets/SHIP-OPEN-OVER-LOOP.anim
+- Assets/IncursionAssets/Drill.prefab
+- Assets/IncursionAssets/GeneralRefinery.prefab
+- Assets/IncursionAssets/Drill.fbx
+- Assets/IncursionAssets/DBtext.fbx
+- Assets/IncursionAssets/TwinsShipTex.fbx
+- Assets/IncursionAssets/GDtext2.fbx
+- Assets/IncursionAssets/SolarRefinery.prefab
+- Assets/IncursionAssets/DysonSphere.fbx
+- Assets/IncursionAssets/Textcol.mat
+- Assets/IncursionAssets/BHtext.fbx
+- Assets/IncursionAssets/THship.prefab
+- Assets/IncursionAssets/TWINship.prefab
+- Assets/IncursionAssets/GDship.prefab
+- Assets/IncursionAssets/DBship.prefab
+- Assets/IncursionAssets/TimberHearthShipTex.fbx
+- Assets/IncursionAssets/Glass.mat
+- Assets/IncursionAssets/Ship01.fbx
+Dependencies: []

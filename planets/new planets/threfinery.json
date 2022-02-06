@@ -1,0 +1,44 @@
+{
+	"name" : "TH Refinery",
+	"destroy" : false,
+    "Base" :
+    {
+        "surfaceSize" : 60,
+        "surfaceGravity" : 8,
+        "hasReferenceFrame" : true
+    },
+
+	"Props" : 
+    {
+        "details" :
+        [
+            {
+                "assetBundle" : "planets/incursion",
+                "path" : "Assets/IncursionAssets/GeneralRefinery.prefab",
+                "scale" : 1,
+				"position" : {"x" : 0, "y" : 0, "z" : 0}
+            }
+        ],
+        "Dialogue" :
+        [
+            {
+                "xmlFile" : "planets/dialogue/threfinery.xml",
+                "radius" : 2,
+				"position" : {"x": -0.01621819, "y": 36.77307, "z": 0.1773796}
+            }
+        ]
+    },
+    "Orbit" :
+    {
+        "primaryBody" : "TIMBER_HEARTH",
+        "semiMajorAxis" : 500,
+        "longtitudeOfAscendingNode" : 270,
+        "inclination" : 90,
+        "isTidallyLocked" : true
+    },
+    "Funnel" :
+    {
+        "target" : "TIMBER_HEARTH",
+        "type" : "lava"
+    }
+}
