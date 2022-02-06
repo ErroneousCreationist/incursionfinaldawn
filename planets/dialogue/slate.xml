@@ -1,0 +1,15 @@
+<DialogueTree>
+    <NameField>Slate</NameField>
+
+    <DialogueNode>
+        <Name>Start</Name>
+        <EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Hey Hatchling, before you go and uh get those launch codes...</Page>
+            <Page>Some weird stuff happened and like that thing in the sky? yeah</Page>
+            <Page>all that appeared while you were asleep. maybe go check it out? and tell me what the hell they are?</Page>
+            <Page>I'm not scared, no! Just, uh, unsettled.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

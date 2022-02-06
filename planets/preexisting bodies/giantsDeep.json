@@ -1,6 +1,7 @@
 {
 	"name" : "GIANTS_DEEP",
 	"destroy" : false,
+    "childrenToDestroy" : ["Sector_GD/Sector_GDInterior"],
 
 	"Props" : 
     {
@@ -35,10 +36,6 @@
         "fogSize" : 600,
         "fogTint" : {"r" : 3, "g" : 252, "b" : 207, "a" : 255},
         "fogDensity" : 50
-    },
-    "Water" : 
-    {
-        "size" : 0
     },
     "Sand" :
     {

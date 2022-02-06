@@ -25,6 +25,12 @@
                 "xmlFile" : "planets/dialogue.xml",
                 "radius" : 2,
 				"position" : {"x": -5.237547, "y": -3.324117, "z": 317.0683}
+            },
+            {
+                "xmlFile" : "planets/dialogue/slate.xml",
+                "radius" : 0.1,
+				"position" :  {"x": 17.41209, "y": -41.31531, "z": 187.077},
+                "remoteTriggerPosition" :  {"x": 9.71385, "y": -42.34344, "z": 186.3143}
             }
         ]
     },
