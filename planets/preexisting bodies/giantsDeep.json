@@ -1,7 +1,7 @@
 {
 	"name" : "GIANTS_DEEP",
 	"destroy" : false,
-    "childrenToDestroy" : ["Sector_GD/Sector_GDInterior"],
+    "removeChildren" : ["Sector_GD/Sector_GDInterior"],
 
 	"Props" : 
     {
