@@ -1,0 +1,88 @@
+{
+    "DialogueDictionary" : {
+		"Slate" : "Сланец",
+		"Hey Hatchling, before you go and uh get those launch codes..." : "Эй, до того как ты пойдешь за кодами запуска...",
+		"Some weird stuff happened and like that thing in the sky? yeah" : "Что-то странное произошло в небе, а потом появилась та летающая штука.",
+		"All that appeared while you were asleep. maybe go check it out? and tell me what the hell they are?" : "Всё это случилось, пока ты спал. Может быть проверишь, что произошло, и скажешь мне?",
+		"I'm not scared, no! Just, uh, unsettled." : "Мне не страшно, нет! Мне просто.. некомфортно.",
+		
+		"Shipboard Computer" : "Бортовой компьютер",
+		"habitable-planet FILES" : "ФАЙЛЫ обитаемая-планета",
+		"EXIT" : "ВЫЙТИ",
+		"LOG FROM habitable-planet ORBITAL REFINERY" : "ЖУРНАЛ ИЗ СТАНЦИИ ДЛЯ ВЫКАЧКИ РЕСУРСОВ обитаемая-планета",
+		"RECIEVING INSTRUCTIONS FROM habitable-planet SPACESHIP" : "ПОЛУЧАЮ ИНСТРУКЦИИ ОТ КОРАБЛЯ обитаемая-планета",
+		"PLANETARY ORE CONCENTRATION: HIGH" : "КОЛИЧЕСТВО РУДЫ НА ПЛАНЕТЕ: БОЛЬШОЕ",
+		"COMMENCING ORBITAL MINING..." : "НАЧИНАЮ ОРБИТАЛЬНУЮ ДОБЫЧУ...",
+		"RECIEVING FROM habitable-planet SPACESHIP: [\"SLAG OVERLOAD! DUMPING TO habitable-planet\"]" : "СООБЩЕНИЕ ОТ КОРАБЛЯ обитаемая-планета: [\"ХРАНИЛИЩЕ ПЕРЕПОЛНЕНО! НАЧИНАЮ СБРОС ЛИШНЕГО НА обитаемая-планета\"]",
+		"STATUS: RETRIEVING ORE AND DUMPING WASTE SLAG" : "СТАТУС: ДОБЫВАЮ РУДУ И СБРАСЫВАЮ ЛИШЕЕ",
+		"BACK" : "ВЕРНУТЬСЯ",
+		"EXITING..." : "ВЫХОД...",
+		
+		"sol FILES" : "ФАЙЛЫ солнце",
+		"LOG FROM sol MAIN ORBITAL REFINERY" : "ЖУРНАЛ ИЗ ГЛАВНОЙ СТАНЦИИ ДЛЯ ВЫКАЧКИ РЕСУРСОВ солнце",
+		"DOING PRELIMINARY SCAN..." : "НАЧИНАЮ ПРЕДВАРИТЕЛЬНОЕ СКАНИРОВАНИЕ...",
+		"SOLAR ACTIVITY INDICATES ONCOMING SUPERNOVA" : "АНАЛИЗ СОЛНЕЧНОЙ АКТИВНОСТИ ПОКАЗАЛ: ЗВЕЗДА СКОРО СТАНЕТ СВЕРХНОВОЙ",
+		"CALLING [directive2.634]... WILL NOT SEND MESSAGE TO PREVENT PANIC" : "ВЫЗЫВАЮ [директиву2.634]... ВЫСЫЛКА СООБЩЕНИЯ ОТМЕНЕНА, ЧТО-БЫ ПРЕДОТВРАТИТЬ ПАНИКУ",
+		"COMMENCING RESOURCE EXTRACTION..." : "НАЧИНАЮ ДОБЫЧУ РЕСУРСОВ...",
+		"PULLING RESOURCES ACTIVE" : "ПРИВЛЕЧЕНИЕ РЕСУРСОВ АКТИВИРОВАНО",
+		
+		"gas-giant FILES" : "ФАЙЛЫ газовый-гигант",
+		"LOG FROM gas-giant ORBITAL TERRAFORMER" : "ЖУРНАЛ ИЗ ОРБИТАЛЬНОГО ТЕРРАФОРМЕРА газовый-гигант",
+		"RECIEVING INSTRUCTIONS FROM gas-giant SPACESHIP" : "ПОЛУЧАЮ ИНСТРУКЦИИ ОТ КОРАБЛЯ газовый-гигант",
+		"BEGIN TERRAFORMATION" : "НАЧИНАЮ ТЕРРАФОРМАЦИЮ",
+		"CREATING USABLE SURFACE..." : "СОЗДАЮ ПРИГОДНУЮ ПОВЕРХНОСТЬ...",
+		"WARNING: ERRATIC WEATHER DETECTED! WARNING: LANDMASSES DETECTED - DESTROYING LANDMASSES" : "ПРЕДУПРЕЖДЕНИЕ: ОБНАРУЖЕНА ПЕРЕМЕНЧИВАЯ ПОГОДА! ПРЕДУПРЕЖДЕНИЕ: НАЙДЕНЫ НАЗЕМНЫЕ ОБЪЕКТЫ - УНИЧТОЖАЮ НАЗЕМНЫЕ ОБЪЕКТЫ",
+		"STATUS: USING WASTE MATERIAL TO MAKE USABLE SURFACE" : "СТАТУС: ИСПОЛЬЗУЯ ПЕРЕРАБОТАННЫЙ МАТЕРИАЛ СОЗДАЮ ПРИГОДНУЮ ПОВЕРХНОСТЬ",
+		
+		"SHIPBOARD COMPUTER" : "БОРТОВОЙ КОМПЬЮТЕР",
+		"ACCESS FILES ON: binary-system" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: бинарная-планета",
+		"ACCESS FILES ON: habitable-planet" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: обитаемая-планета",
+		"ACCESS FILES ON: gas-giant" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: газовый-гигант",
+		"ACCESS FILES ON: rocky-planet" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: каменная-планета",
+		"ACCESS FILES ON: cloaked-vessel" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: скрытый-корабль",
+		"ACCESS FILES ON: unidentified-planet" : "ПОЛУЧИТЬ ДОСТУП К ФАЙЛАМ: неитендифицированная-планета",
+		
+		"LOG FROM binary-system SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ бинарная-планета",
+		"SCANNING..." : "СКАНИРУЮ...",
+		"ALIEN TECHNOLOGY DETECTED ON AND IN BOTH PLANETS" : "НА ОБОИХ ПЛАНЕТАХ НАЙДЕНЫ ТЕХНОЛОГИИ ПРИШЕЛЬЦЕВ",
+		"sand-twin UNABLE TO BE MINED" : "НЕ МОГУ ДОБЫВАТЬ РУДУ НА песочная-планета",
+		"LAUNCHING DRILLS TO cave-twin" : "ЗАПУСКАЮ БУР НА пещерная-планета",
+		"EXPLORATION COMPLETE. ENTERING REST MODE..." : "ИЗУЧЕНИЕ ЗАВЕРШЕНО. ВХОЖУ В РЕЖИМ ОЖИДАНИЯ...",
+		
+		"LOG FROM habitable-planet SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ обитаемая-планета",
+		"HIGH ORE CONCENTRATION DETECTED. LIFE DETECTED. STATUS: PRIMITIVE" : "ОБНАРУЖЕНО БОЛЬШОЕ КОЛИЧЕСТВО РУДЫ. ОБНАРУЖЕНА ЖИЗНЬ. СТАТУС: ПРИМИТИВНАЯ",
+		"MOON DETECTED. OBLITERATING FOR RESOURCES..." : "ОБНАРУЖЕНА ЛУНА. УНИЧТОЖАЮ РАДИ РЕСУРСОВ...",
+		"WARNING! WASTE SLAG OVERLOAD! DUMPING TO habitable-planet" : "ВНИМАНИЕ! ХРАНИЛИЩЕ ПЕРЕПОЛНЕНО! НАЧИНАЮ СБРОС ЛИШНЕГО НА обитаемая-планета",
+		
+		"LOG FROM rocky-planet SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ каменистая-планета",
+		"GRAVITATIONAL ANOMALY DETECTED IN CORE. SCANNING FURTHER..." : "ОБНАРУЖЕНЫ ГРАВИТАЦИОННЫЕ АНОМАЛИИ В ЯДРЕ. СКАНИРУЮ ВНИМАТЕЛЬНЕЕ...",
+		"WARNING: CRUST HOLLOW. USABLE SPACE MINIMAL. VOLCANIC MOON DETECTED: NO VALUABLE RESOURCES" : "ВНИМАНИЕ: КОРА ПЛАНЕТЫ ПОЛАЯ. КОЛИЧЕСТВО РУДЫ МИНИМАЛЬНО. ОБНАРУЖЕНА ВУЛКАНИЧЕСКАЯ ЛУНА: НЕТ ПОЛЕЗНЫХ РЕСУРСОВ",
+		"PLANET NON-VALUABLE." : "ПЛАНЕТА НЕ ИМЕЕТ ЦЕННОСТИ.",
+		
+		"LOG FROM gas-giant SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ газовый-гигант",
+		"WATER SURFACE DETECTED. PLANET ATMOSPHERE AND SURFACE PERFECT FOR TERRAFORMATION" : "ОБНАРУЖЕНА ВОДЯНАЯ ПОВЕРХНОСТЬ. АТМОСФЕРА И ПОВЕРХНОСТЬ ПЛАНЕТЫ ИДЕАЛЬНО ПОДХОДЯТ ДЛЯ ТЕРРАФОРМАЦИИ",
+		"ENCASE PLANET IN SHELL - CREATE USABLE SURFACE" : "ЗАКЛЮЧИТЬ ПЛАНЕТУ В СФЕРУ - СОЗДАТЬ НОРМАЛЬНУЮ ПОВЕРХНОСТЬ",
+		"WARNING: MULTIPLE BREACHES FOUND IN SHELL. LOW PRIORITY." : "ВНИМАНИЕ: В СФЕРЕ НАЙДЕНЫ МНОГОЧИСЛЕННЫЕ БРЕШИ. НИЗКИЙ ПРИОРИТЕТ.",
+		"SIGNAL DETECTED FROM SURFACE: [\"gabbro here, somethings VERY wrong! oh sapwine OH SAPW-\"]" : "ОБНАРУЖЕН СИГНАЛ: [\"это габбро, здесь происходит что-то ОЧЕНЬ странное! о мой бог, О МОЙ Б-\"]",
+		
+		"LOG FROM cloaked-vessel SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ скрытый-корабль",
+		"IDENTIFIED AS SPACE VESSEL, SOPHISTICATION MODERATE" : "ИТЕНДИФИЦИРОВАН КАК КОСМИЧЕСКИЙ КОРАБЛЬ, ТЕХНОЛОГИЧНОСТЬ УМЕРЕННАЯ",
+		"NO LIFEFORMS DETECTED ABOARD. INITIATING QUARANTINE SHROUD" : "ЖИВЫЕ СУЩЕСТВА НЕ ОБНАРУЖЕНЫ",
+		"WILL REMAIN IN PLACE TO MONITOR cloaked-vessel" : "ОСТАЮСЬ НА МЕСТЕ ДЛЯ НАБЛЮДЕНИЕМ ЗА скрытый-корабль",
+		
+		"LOG FROM unidentified-planet SPACESHIP" : "ЖУРНАЛ ИЗ КОРАБЛЯ неитендифицированная-планета",
+		"WARNING: INTERNAL DIMENSIONS ANOMALY DETECTED. NUMEROUS DUPLICATE SIGNALS DETECTED" : "ВНИМАНИЕ: ОБНАРУЖЕНЫ ПРОСТРАНСТВЕННЫЕ АНОМАЛИИ. ОБНАРУЖЕНЫ ДУБЛИКАТЫ СИГНАЛОВ",
+		"HOSTILE LIFEFORMS DETECTED WITHIN. ADVANCED SPACE VESSEL WITHIN, TECHNOLOGY IDENTIFIED AS [nomai]" : "ОБНАРУЖЕНЫ ВРАЖДЕБНЫЕ ФОРМЫ ЖИЗНИ. ОБНАРУЖЕН ВЫСОКОТЕХНОЛОГИЧНЫЙ ЗВЕЗДОЛЁТ, ТЕХНОЛОГИЯ ОПРЕДЕЛЕНА КАК [номаи]",
+		"DESCENDING INTO OPENING..." : "СПУСКАЮСЬ В ОТВЕРСТИЕ...",
+		"WARNING: HOSTILE LIFEFORMS AT MASSIVE SIZE, SHIP SUFFERING STRUCTURAL INTEGRITY LOSS" : "ВНИМАНИЕ: ВРАЖДЕБНЫЕ ФОРМЫ ЖИЗНИ ОГРОМНОГО РАЗМЕРА, КОРАБЛЬ ПОЛУЧАЕТ ПОВРЕЖДЕНИЯ",
+		"[connection lost]" : "[связь потеряна]"
+	},
+    "ShipLogDictionary" : {
+		"" : ""
+   	},
+	"UIDictionary" : {
+		"GD Refinery" : "Станция выкачки ресурсов: Пучина Гиганта",
+		"TH Refinery" : "Станция выкачки ресурсов: Камелёк",
+		"Solar Refinery" : "Станция выкачки ресурсов: Солнце"
+    }
+}
